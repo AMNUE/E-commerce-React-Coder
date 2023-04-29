@@ -1,12 +1,15 @@
-
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer.jsx";
+import { NavBar } from "./components/Navbar/NavBar.jsx";
+import { ItemCount } from "./components/ItemCounter/Counter.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hola Mundo</h1>
-      </header>
-    </div>
+    <>
+      <NavBar/>
+      <ItemListContainer saludo="Hola mundo"/>
+      <ItemCount/>
+      
+    </>
   );
 }
 
