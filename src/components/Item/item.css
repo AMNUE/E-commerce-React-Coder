@@ -4,6 +4,7 @@
     border-radius: 10px;
     border-color: white;
     border-style: groove;
+    text-decoration: none;
 }
 .futuro-a:hover {
     transition: 0.2s;
