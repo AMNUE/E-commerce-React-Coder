@@ -6,6 +6,8 @@ export const CartWidget = () => {
     return (
         <>
         <FaShoppingBag className="carrito"/>
+        
+
         </>
 
     )
