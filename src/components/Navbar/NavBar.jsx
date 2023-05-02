@@ -5,11 +5,13 @@ import { CartWidget } from "../CartWidget/CartWidget";
 export const NavBar = () =>{
     return (
         <div className="navbar_div">
-            <p>Brand</p>
-            <p>Home</p>
-            <p>Productos</p>
-            <p>About</p>
-            <CartWidget/>
+            <a href="/">Brand</a>
+            <a href="/productos/Hoodie">Hoodie</a>
+            <a href="/productos/Remera">Remera</a>
+            <a href="/productos/Gorra">Gorra</a>
+            <a href="/about">About</a>
+            <a href="/cart"><CartWidget/></a>
+            
         </div>
     )
 } 
